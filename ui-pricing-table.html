@@ -2,9 +2,9 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="keywords" content="Digital marketing agency, Digital marketing company, Digital marketing services">
-		<meta name="author" content="creativegigs">
-		<meta name="description" content="Rogan creative multipurpose is a beautiful website template designed for SEO & Digital Agency websites.">
+		<meta name="keywords" content="imtec, office, office 365, microsoft, imtec.ba, imtec office, imtec microsoft">
+		<meta name="author" content="davud.colakovic">
+		<meta name="description" content="imtec.ba - Microsoft offic 365 | Planovi i cijene">
 		<meta name='og:image' content='images/home/ogg.png'>
 		<!-- For IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,9 +17,9 @@
 		<meta name="msapplication-navbutton-color" content="#233D63">
 		<!-- iOS Safari -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="#233D63">
-		<title>Rogan - Creative Multi-Purpose HTML Template</title>
+		<title>imtec.ba - Microsoft offic 365 | Planovi i cijene</title>
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+		<link rel="icon" type="image/png" sizes="56x56" href="">
 		<!-- Main style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<!-- responsive style sheet -->
@@ -31,13 +31,59 @@
 			<script src="vendor/html5shiv.js"></script>
 			<script src="vendor/respond.js"></script>
 		<![endif]-->	
+
+		
+		<style>
+			/* CSS style - Modal popup za brzu narudžbu */
+			
+			/* The Modal (background) */
+			.modal {
+			  display: none; /* Hidden by default */
+			  position: fixed; /* Stay in place */
+			  z-index: 1; /* Sit on top */
+			  padding-top: 100px; /* Location of the box */
+			  left: 0;
+			  top: 0;
+			  width: 100%; /* Full width */
+			  height: 100%; /* Full height */
+			  overflow: auto; /* Enable scroll if needed */
+			  background-color: rgb(0,0,0); /* Fallback color */
+			  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			}
+			
+			/* Modal Content */
+			.modal-content {
+			  background-color: #fefefe;
+			  margin: auto;
+			  padding: 20px;
+			  border: 1px solid #888;
+			  width: 80%;
+			}
+			
+			/* The Close Button */
+			.close {
+			  color: #aaaaaa;
+			  float: right;
+			  font-size: 28px;
+			  font-weight: bold;
+			}
+			
+			.close:hover,
+			.close:focus {
+			  color: #000;
+			  text-decoration: none;
+			  cursor: pointer;
+			}
+			</style>
+
+
 	</head>
 
 	<body>
 		<div class="main-page-wrapper">
 
 			<!-- ===================================================
-				Loading Transition
+				Loading tranzicija - imtec
 			==================================================== -->
 			<!-- Preloader -->
 			<section>
@@ -67,20 +113,9 @@
 				</div>
 			</section>
 
-
-			<!-- 
+		<!-- 
 			=============================================
-				Theme Main Menu
-			============================================== 
-			-->
-			
-
-
-
-			
-			<!-- 
-			=============================================
-				Theme Solid Inner Banner
+				Header naslov
 			============================================== 
 			-->
 			<div class="solid-inner-banner mb-150">
@@ -89,7 +124,7 @@
 
 
 
-			<!-- Element Style -->
+			<!-- Info -->
 			<div class="element-section mb-150">
 				<div class="agn-our-pricing p0">
 					<img src="images/shape/shape-55.svg" alt="" class="shape-one">
@@ -116,7 +151,7 @@
 					</div> <!-- /.pricing-tab-menu -->
 
 					<div class="tab-content">
-						<!-- ^^^^^^^^^^^^^^^^^^^^^ Monthly ^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+						<!-- ^^^^^^^^^^^^^^^^^^^^^ Mjesecna pretplata - TAB 1 ^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
 						<div id="month" class="tab-pane fade show active">
 							<div class="table-wrapper">
 								<div class="inner-table clearfix">
@@ -141,13 +176,23 @@
 											<div class="price">150,00 KM<span>/MJ</span></div>
 											<h4 class="title">Business</h4>										
 											<div class="pr-footer">
-												<a href="#" class="choose-button line-button-two">Pretplatite se</a>												
+												<!-- Trigger/Open The Modal -->
+                                            <a href="#" class="choose-button line-button-two" id="myBtn">Pretplatite se</a>
+                                             <!-- The Modal -->
+                                            <div id="myModal" class="modal">
+                                             <!-- Modal content -->
+                                             <div class="modal-content">
+                                                <span class="close">&times;</span>
+                                                <p>TEST - FORMA ZA BRZU NARUDZBU</p>
+                                              </div>
+                                            </div>												
 											</div>
 										</div> <!-- /.pr-header -->
 										<ul class="pr-body">
 											<li>
 												<div class="pr-text">Sadržaj paketa</div>
-												<img src="pricing-table/images/1.png" alt="" style="padding-left: 50px;">
+												<p>Uključene aplikacije i servisi</p>
+												<img src="images/11.png" alt="Italian Trulli" style="padding-left: 50px;">
 											</li>
 											<li>
 												<div class="pr-text">E-mail hosting s 50 GB mailbox i prilagođenom adresom domene e-pošte</div>
@@ -243,7 +288,8 @@
 										<ul class="pr-body">
 											<li>
 												<div class="pr-text">Sadržaj paketa</div>
-												<img src="pricing-table/images/1.png" alt="" style="padding-left: 50px;">
+												<p>Uključene aplikacije i servisi</p>
+												<img src="images/2.png" alt="Italian Trulli" style="padding-left: 50px;">
 											</li>
 											<li>
 												<div class="pr-text">E-mail hosting s 50 GB mailbox i prilagođenom adresom domene e-pošte</div>
@@ -340,7 +386,8 @@
 										<ul class="pr-body">
 											<li>
 												<div class="pr-text">Sadržaj paketa</div>
-												<img src="images/1.png" alt="" style="padding-left: 50px;">
+												<p>Uključeni servisi</p>											
+												<img src="images/33.png" alt="Italian Trulli" style="padding-left: 50px;">
 											</li>
 											<li>
 												<div class="pr-text">E-mail hosting s 50 GB mailbox i prilagođenom adresom domene e-pošte</div>
@@ -430,7 +477,7 @@
 							</div> <!-- /.table-wrapper -->
 						</div> <!-- /#month -->
 
-						<!-- ^^^^^^^^^^^^^^^^^^^^^ Yearly ^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+						<!-- ^^^^^^^^^^^^^^^^^^^^^ Godisnja pretplata - TAB 2 ^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
 					  	<div id="annual" class="tab-pane fade">
 					  		<div class="table-wrapper">
 								<div class="inner-table clearfix">
@@ -747,25 +794,6 @@
 			</div>
 
 
-		
-			
-			
-
-
-
-
-			<!--
-			=====================================================
-				Footer
-			=====================================================
-			-->
-			
-			
-
-	        
-			
-
-
 		<!-- Optional JavaScript _____________________________  -->
 
     	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -791,6 +819,33 @@
 
 		<!-- Language js -->
 		<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		<script>
+			// Get the modal
+			var modal = document.getElementById("myModal");
+			
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
+			
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+			
+			// When the user clicks the button, open the modal 
+			btn.onclick = function() {
+			  modal.style.display = "block";
+			}
+			
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			  modal.style.display = "none";
+			}
+			
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			  if (event.target == modal) {
+				modal.style.display = "none";
+			  }
+			}
+			</script>
 
 
 		<!-- Theme js -->
