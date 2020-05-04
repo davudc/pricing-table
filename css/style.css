@@ -1928,7 +1928,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   width: 215px;
   position: absolute;
   left:0;
-  top:544px;
+  top:501px;
 }
 .agn-our-pricing .table-wrapper .inner-table .pr-list-text li {
   font-size: 17px;
@@ -1975,7 +1975,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .agn-our-pricing .table-wrapper .pr-column .pr-body li .icon {font-size: 16px; }
 .agn-our-pricing .table-wrapper .pr-column .pr-body li .none {color: rgba(151,151,151,0.75);}
 .agn-our-pricing .table-wrapper .pr-column .pr-body li .available {color: #00e953;}
-.agn-our-pricing .table-wrapper .pr-column .pr-footer {padding: 48px 0 45px;}
+.agn-our-pricing .table-wrapper .pr-column .pr-footer {padding: 25px 0 25px;}
 .agn-our-pricing .table-wrapper .pr-column .pr-footer p {
   font-size: 17px;
   color: rgba(35,61,99,0.5);
